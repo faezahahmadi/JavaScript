@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #eeecec;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: "20px";
+    justify-content: center;
+}
+div{
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 2rem;
+    width: 500px;
+    border-radius: 16px;
+    padding: 1.5em;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+h1{
+    margin-bottom: 1.5rem;
+    color: #222222;
+}
+h3{
+    margin: 1rem 0;
+    color: #1e293b;
+}
+.checkbox{
+ 
+margin-bottom: 10px;
+margin-right: 2px;}
+
+
+#passLength{
+    width: 80%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: 1px solid #cbd5e1 ;
+    border-radius: 12px;
+    font-size: 1rem;
+}
+label{
+    color: #334155;
+}
+#generateBtn{
+    background-color: #0e89db;
+    color: #ffffff;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin: 1em;
+    border: none;
+    border-radius:0.5em;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+#generateBtn:hover{
+    background-color: #0a639e;
+}
+#reset{
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin: 1em;
+    border: 5px;
+    border-color: #0e89db;
+    border-radius:0.5em;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.2s;
+    background-color: #dad9d9;
+}
+#reset:hover{
+    background-color: #7a7a7a;
+    color: #ffffff;
+}
+#password{
+    margin-top: 1rem;
+    padding: 12px;
+    background-color: #1c2c52;
+    color: #ffffff;
+    border-radius: 13px;
+    word-break: break-all;
+}
