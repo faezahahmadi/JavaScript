@@ -56,6 +56,7 @@ This project was built to practice:
 6.	Conditional logic
 7.	Random number generation
 8.	String manipulation
+
 # ScreenShots
 <img width="1366" height="727" alt="5" src="https://github.com/user-attachments/assets/a89134d4-01b3-4a19-9cad-212a8c828816" />
 <img width="1366" height="723" alt="4" src="https://github.com/user-attachments/assets/28d50f16-33c4-410a-b853-a3c623ecfe3b" />
