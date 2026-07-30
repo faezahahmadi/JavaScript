@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Temprature converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Temperature Converter Calculator</h1>
+      <input type="number" id="value" placeholder="eg. 20" value="0" /><br />
+
+      <input type="radio" name="unit" id="celcius" />
+      <label for="celcius">Celcuis to Farenhite</label><br />
+
+      <input type="radio" name="unit" id="farenhite" />
+      <label for="farenhite">Farenhite to Celcuis</label>
+      <h3 id="result"></h3>
+      <button id="convertBtn" type="submit">Convert</button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
