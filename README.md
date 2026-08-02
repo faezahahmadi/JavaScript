@@ -1,6 +1,6 @@
 # JavaScript Mini Projects 🚀
 
-A curated collection of **10 vanilla JavaScript projects** — perfect for beginners who want to move beyond theory and build real, interactive web applications. Every project is crafted to reinforce fundamental programming concepts while keeping things fun and practical.
+A curated collection of **11 vanilla JavaScript projects** — perfect for beginners who want to move beyond theory and build real, interactive web applications. Every project is crafted to reinforce fundamental programming concepts while keeping things fun and practical.
 
 ---
 
@@ -127,6 +127,20 @@ A visual tool that creates harmonious 5‑color palettes with a single click.
 
 **Key concepts:** Random HEX generation (`Math.random().toString(16)`), clipboard API, CSS styling for interactive feedback, event bubbling.
 
+### 11. Simple Kanban Board 📋
+A visual task manager that lets you organize work across To Do, In Progress, and Done columns using intuitive drag‑and‑drop.  
+How it works:  
+- Add a task – type into the input field and click "Add"; a new card appears in the To Do column.  
+- Delete a task – each card has a delete button (🗑️) that removes it entirely.  
+- Update / move a task – simply drag any card and drop it into a different column. The app updates the task's status automatically (e.g., moving to "Done" marks it complete).  
+- The drag‑and‑drop logic relies on native HTML5 Drag API:  
+  - dragstart – stores the dragged task's ID.  
+  - dragover – allows dropping by preventing default behavior (required).  
+  - dragenter / dragleave – adds/removes visual highlights to indicate valid drop zones.  
+  - dragend – cleans up any leftover styles after the drag finishes.  
+  - click – handles the "Add" and "Delete" actions.
+
+Key concepts: HTML5 Drag & Drop API, dragstart, dragend, dragover, dragenter, dragleave, event delegation, DOM manipulation, array-based state management, localStorage (optional for persistence).
 ---
 
 ## 🛠️ Technologies Used
